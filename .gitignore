@@ -1,0 +1,62 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# === Virtual environment ===
+venv/
+env/
+.venv/
+ENV/
+
+# === Секреты и конфиги ===
+.env
+.env.*
+config.py
+config.ini
+secrets.json
+*token*
+!*token*example*
+
+# === База данных ===
+*.db
+*.sqlite
+*.sqlite3
+db.sqlite3
+
+# === Логи ===
+*.log
+logs/
+
+# === IDE / редакторы ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === aiogram / бот специфичное ===
+*.session
+*.session-journal
+media/
+downloads/
+temp/
+cache/
+
+# === Docker (если используется) ===
+.dockerignore
+docker-compose.override.yml
+
+# === Тесты и покрытие ===
+.pytest_cache/
+.coverage
+htmlcov/
